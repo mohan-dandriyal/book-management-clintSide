@@ -10,8 +10,8 @@ import axios from 'axios';
 function Login() {
     const navigate = useNavigate()
     const [user, setUser] = useState({
-        email: "mohan20@gmail.com",
-        password: "Dandriyal@10"
+        email: "",
+        password: ""
     })
 
     const hendleSubmit = () => {
